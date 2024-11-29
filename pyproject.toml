@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "incicada"
+version = "0.1.0"
+description = ""
+authors = ["alexeev-prog <alexeev.dev@mail.ru>"]
+license = "LGPL 2.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+asyncio = "^3.4.3"
+beanie = "^1.27.0"
+pydantic = "^2.10.2"
+rich = "^13.9.4"
+loguru = "^0.7.2"
+pyyaml = "^6.0.2"
+toml = "^0.10.2"
+aiocli = "^1.10.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+ruff = "^0.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
